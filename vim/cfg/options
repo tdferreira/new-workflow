@@ -20,3 +20,6 @@ set t_vb=
 
 " NORMAL BACKSPACE
 set backspace=indent,eol,start
+
+" MAPPING DELAY
+set timeoutlen=1000 ttimeoutlen=0
