@@ -9,3 +9,7 @@ set relativenumber
 
 " THEME
 syntax on
+
+" CLIPBOARD
+" allow y, d and p to use system clipboard
+set clipboard=unnamed
