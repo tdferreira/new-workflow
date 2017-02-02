@@ -2,6 +2,8 @@ alias run='npm run'
 
 alias g='git'
 
+alias vi='vim'
+
 alias cdp='cd ~/dev/paddypower'
 alias cdsms='cd ~/dev/paddypower/static-clients/ppsms-static-client'
 alias cdsds='cd ~/dev/paddypower/static-clients/ppsds-static-client'
