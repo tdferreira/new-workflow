@@ -1,0 +1,11 @@
+" TAB SETTINGS
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4 expandtab
+
+" LINE NUMBERS
+set number
+set relativenumber
+
+" THEME
+syntax on

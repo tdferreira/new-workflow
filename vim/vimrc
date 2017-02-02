@@ -1,0 +1,5 @@
+so ~/new-workflow/vim/autoload/plug.vim
+
+so ~/new-workflow/vim/cfg/mappings
+so ~/new-workflow/vim/cfg/options
+so ~/new-workflow/vim/cfg/plugins
