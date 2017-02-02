@@ -13,3 +13,10 @@ syntax on
 " CLIPBOARD
 " allow y, d and p to use system clipboard
 set clipboard=unnamed
+
+" BELL
+set vb
+set t_vb=
+
+" NORMAL BACKSPACE
+set backspace=indent,eol,start

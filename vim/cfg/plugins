@@ -1,5 +1,9 @@
 call plug#begin('~/new-workflow/plugged')
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+Plug 'easymotion/vim-easymotion'
 
 call plug#end()
