@@ -3,7 +3,7 @@
     email = miguel.almeida@blip.pt
 
 [core]
-    excludesfile = /Users/miguelalmeida/.gitignore_global
+    excludesfile = ~/.gitignore_global
     editor = nvim 
     ignorecase = false
 
