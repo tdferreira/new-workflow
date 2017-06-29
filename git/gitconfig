@@ -1,6 +1,6 @@
 [user]
-    name = Miguel Almeida
-    email = miguel.almeida@blip.pt
+	name = Miguel Almeida
+	email = miguel.almeida@blip.pt
 
 [core]
     excludesfile = ~/.gitignore_global
