@@ -1,0 +1,53 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "vim.useCtrlKeys": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.otherModesKeyBindings": [
+        {
+            "before": [
+                "J"
+            ],
+            "after": [
+                "5","j"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "after": [
+                "5","k"
+            ]
+        },
+        {
+            "before": [
+                ","
+            ],
+            "after": [
+                ":"
+            ]
+        }
+
+    ],
+    "vim.easymotion": true,
+    "vim.useSystemClipboard": true,
+    "editor.fontSize": 13,
+    "editor.lineNumbers": "off",
+    "workbench.sideBar.location": "left",
+    "git.confirmSync": false,
+    "files.trimTrailingWhitespace": true,
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vscode-great-icons",
+    "vim.disableAnnoyingNeovimMessage": true,
+    "window.nativeTabs": true
+}
