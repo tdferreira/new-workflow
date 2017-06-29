@@ -12,3 +12,4 @@ alias cdfsds='cd ~/dev/paddypower/functional-tests/ppsds-functional-tests'
 alias cdd='cd ~/dev'
 alias cda='cd ~/dev/paddypower/common/abacus'
 
+alias runstrand='node bin/fabric.js run `pwd`/config/configuration.json'
