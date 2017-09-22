@@ -1,0 +1,19 @@
+{
+    "recommendations": [
+        "WallabyJs.quokka-vscode",
+        "abusaidm.html-snippets",
+        "alefragnani.project-manager",
+        "andrejunges.Handlebars",
+        "christian-kohler.path-intellisense",
+        "donjayamanne.githistory",
+        "emmanuelbeziat.vscode-great-icons",
+        "extr0py.vscode-relative-line-numbers",
+        "formulahendry.auto-close-tag",
+        "joelday.docthis",
+        "mohsen1.prettify-json",
+        "shyykoserhiy.vscode-spotify",
+        "vscodevim.vim",
+        "waderyan.gitblame",
+        "zhuangtongfa.Material-theme"
+    ]
+}
