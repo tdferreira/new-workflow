@@ -4,12 +4,3 @@ alias g='git'
 
 alias vi='vim'
 
-alias cdp='cd ~/dev/paddypower'
-alias cdsms='cd ~/dev/paddypower/static-clients/ppsms-static-client'
-alias cdsds='cd ~/dev/paddypower/static-clients/ppsds-static-client'
-alias cdfsms='cd ~/dev/paddypower/functional-tests/ppsms-functional-tests'
-alias cdfsds='cd ~/dev/paddypower/functional-tests/ppsds-functional-tests'
-alias cdd='cd ~/dev'
-alias cda='cd ~/dev/paddypower/common/abacus'
-
-alias runstrand='node bin/fabric.js run `pwd`/config/configuration.json'
