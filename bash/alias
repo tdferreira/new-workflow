@@ -3,4 +3,4 @@ alias run='npm run'
 alias g='git'
 
 alias vi='vim'
-
+alias dc='docker-compose'
