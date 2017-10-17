@@ -4,3 +4,5 @@ alias g='git'
 
 alias vi='vim'
 alias dc='docker-compose'
+
+alias standup='cd ~/dev/talkdesk/ && git standup -m 2'
