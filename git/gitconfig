@@ -4,7 +4,7 @@
 
 [core]
     excludesfile = ~/.gitignore_global
-    editor = nvim 
+    editor = vim 
     ignorecase = false
 
 [alias]
@@ -45,3 +45,8 @@
 
 [init]
 	templatedir = ~/.git-templates
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
