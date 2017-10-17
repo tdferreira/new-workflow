@@ -51,5 +51,8 @@
     "vim.disableAnnoyingNeovimMessage": true,
     "window.nativeTabs": true,
     "editor.minimap.enabled": false,
-    "workbench.colorTheme": "One Dark Pro"
+    "workbench.colorTheme": "One Dark Pro",
+    "[ruby]": {
+        "editor.tabSize": 2
+    }
 }
