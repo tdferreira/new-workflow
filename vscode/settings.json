@@ -54,5 +54,8 @@
     "workbench.colorTheme": "One Dark Pro",
     "[ruby]": {
         "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
     }
 }
