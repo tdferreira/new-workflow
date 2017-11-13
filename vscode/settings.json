@@ -57,5 +57,6 @@
     },
     "[javascript]": {
         "editor.tabSize": 2
-    }
+    },
+    "workbench.panel.location": "right"
 }
