@@ -1,4 +1,4 @@
-export PS1="\n\e[0;34m\e[47m $(date +%k:%M:%S)  ~\$(get_current_directory)  \e[m\e[0;\e[m\e[m\e[0;37m\e[\$(get_font_background) ⎇  \$(git_prompt) \e[m\e[0;\e[0;34m \n-> "
+export PS1="\n\e[0;34m\e[47m $(date +%k:%M:%S)  ~\$(get_current_directory)  \e[m\e[m\e[0;37m\e[\$(get_font_background) ⎇  \$(git_prompt) \e[m\e[0;\e \n-> "
 
 get_font_background() {
     if [[ "$(parse_git_dirty)" == "1" ]]
