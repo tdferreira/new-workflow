@@ -41,8 +41,8 @@
     ],
     "vim.easymotion": true,
     "vim.useSystemClipboard": true,
-    "editor.fontSize": 13,
-    "editor.lineNumbers": "off",
+    "editor.fontSize": 12,
+    "editor.lineNumbers": "relative",
     "workbench.sideBar.location": "left",
     "git.confirmSync": false,
     "files.trimTrailingWhitespace": true,
@@ -58,5 +58,6 @@
     "[javascript]": {
         "editor.tabSize": 2
     },
-    "workbench.panel.location": "right"
+    "workbench.panel.location": "right",
+    "files.insertFinalNewline": true
 }
