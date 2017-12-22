@@ -5,5 +5,12 @@
     { "key": "ctrl+w ctrl+w",         "command": "workbench.action.nextEditor" },
     { "key": "ctrl+j",         "command": "workbench.action.terminal.focus" },
     { "key": "ctrl+k",         "command": "workbench.action.terminal.toggleTerminal" },
-    { "key": "cmd+r",          "command": "workbench.action.openRecent"}
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.terminal.focusNext"
+    }
 ]
