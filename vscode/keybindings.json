@@ -12,5 +12,13 @@
     {
         "key": "ctrl+n",
         "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "alt+j",
+        "command": "workbench.action.increaseViewSize"
+    },
+    {
+        "key": "alt+k",
+        "command": "workbench.action.decreaseViewSize"
     }
 ]
