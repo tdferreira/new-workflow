@@ -6,6 +6,7 @@ alias vi='vim'
 alias dc='docker-compose'
 
 alias dctest="docker-compose run development bash -c 'RAILS_ENV=test rspec'"
+alias test='docker-compose build tests && docker-compose run tests'
 
 alias standup='cd ~/dev/talkdesk/ && git standup -m 2 && cd - > /dev/null'
 
