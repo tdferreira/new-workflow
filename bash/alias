@@ -10,3 +10,8 @@ alias dctest="docker-compose run development bash -c 'RAILS_ENV=test rspec'"
 alias standup='cd ~/dev/talkdesk/ && git standup -m 2 && cd - > /dev/null'
 
 alias docker_nuke='docker stop $(docker ps -a -q); docker rm -f $(docker ps -a -q); docker rmi -f $(docker images -a -q); docker system prune -f; docker volume prune -f'
+
+# alias functions
+fixup () {
+    git commit --fixup $(git log --oneline | sed -n "$1p" | egrep -o '(\w+)\s' | head -n 1)
+}
