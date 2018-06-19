@@ -12,7 +12,34 @@
             ]
         }
     ],
-    "vim.otherModesKeyBindings": [
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "J"
+            ],
+            "after": [
+                "5","j"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "after": [
+                "5","k"
+            ]
+        },
+        {
+            "before": [
+                ","
+            ],
+            "after": [
+                ":"
+            ]
+        }
+
+    ],
+    "vim.visualModeKeyBindings": [
         {
             "before": [
                 "J"
