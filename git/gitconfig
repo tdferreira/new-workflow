@@ -13,6 +13,7 @@
     aa = add --all
     co = checkout
     d  = diff
+    dc = diff --cached
     p  = pull
     pu = push
     s  = status
