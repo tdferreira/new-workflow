@@ -6,5 +6,6 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'easymotion/vim-easymotion'
 Plug 'pangloss/vim-javascript'
+Plug 'udalov/kotlin-vim'
 
 call plug#end()
