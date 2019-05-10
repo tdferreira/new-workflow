@@ -20,6 +20,8 @@
     b  = branch
     un = reset --hard HEAD
     lg = log --abbrev-commit --pretty='%h (%ad) - [%an] %s %d' --date=format:'%b %d %Y'
+    as = rebase -i master --autosquash
+    fix = commit --fixup
 
 [color]
     ui = true
