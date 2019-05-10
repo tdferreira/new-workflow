@@ -78,7 +78,7 @@
     "vim.disableAnnoyingNeovimMessage": true,
     "window.nativeTabs": false,
     "editor.minimap.enabled": false,
-    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorTheme": "Atom One Dark",
     "[ruby]": {
         "editor.tabSize": 2
     },
@@ -86,5 +86,7 @@
         "editor.tabSize": 2
     },
     "workbench.panel.location": "right",
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
