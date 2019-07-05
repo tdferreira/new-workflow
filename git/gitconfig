@@ -1,10 +1,10 @@
 [user]
-	name = Miguel Almeida
-	email = miguelalmeida845@gmail.com
+	name = Tiago Ferreira
+	email = tdferreira@gmail.com
 
 [core]
     excludesfile = ~/.gitignore_global
-    editor = vim 
+    editor = nano 
     ignorecase = false
 
 [alias]
@@ -17,11 +17,14 @@
     p  = pull
     pu = push
     s  = status
+    st = status
     b  = branch
     un = reset --hard HEAD
     lg = log --abbrev-commit --pretty='%h (%ad) - [%an] %s %d' --date=format:'%b %d %Y'
     as = rebase -i master --autosquash
     fix = commit --fixup
+    hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+    co = checkout
 
 [color]
     ui = true
@@ -53,3 +56,13 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
+
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
