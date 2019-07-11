@@ -1,0 +1,16 @@
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$DIR/.ps1"
+
+#java 
+#   Be sure to add all jvm's to /Library/Java/JavaVirtualMachines/
+export JAVA_HOME=$(/usr/libexec/java_home -v 11.0.2)
+export GRAALVM_HOME=$(/usr/libexec/java_home -v 1.8.0_202)
+
+function jdk() {
+    export JAVA_HOME=$(/usr/libexec/java_home -v $1)
+    echo $JAVA_HOME
+    #rm -rf $JAVA_DIR/bin
+    #ln -s $JAVA_HOME/bin $JAVA_DIR/bin
+    java -version
+}
+#export PATH=$PATH:$JAVA_DIR/bin
